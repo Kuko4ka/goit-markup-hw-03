@@ -186,6 +186,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--brandcolor);
   margin-bottom: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .section-goals-p {
@@ -197,6 +198,10 @@ img {
 
 /* Section 3 */
 
+.main-section-projects {
+  padding-bottom: 120px;
+}
+
 .section-htwo {
   color: var(--brandcolor);
   font-size: 36px;
@@ -204,6 +209,16 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
+}
+
+.main-section-projects-ul {
+  display: flex;
+}
+
+.main-section-projects-ul-li {
+  gap: 24px;
+  width: calc((100% - 48px) / 3);
 }
 
 /* Section 4 */
