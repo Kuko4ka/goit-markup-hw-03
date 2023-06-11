@@ -13,6 +13,10 @@ body {
   color: #434455;
 }
 
+.container {
+  width: 1158px;
+}
+
 .link {
   text-decoration: none;
 }
@@ -21,7 +25,29 @@ body {
   list-style: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
 /* Header */
+
+.page-header {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
