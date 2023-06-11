@@ -57,7 +57,6 @@ img {
 
 .page-header-container {
   display: flex;
-  margin: 0 auto;
 }
 
 .header-nav {
@@ -122,6 +121,10 @@ img {
 }
 
 /* Main */
+
+.htwo-hidden {
+  visibility: hidden;
+}
 
 /* Section 1 */
 .main-hero {
@@ -227,6 +230,7 @@ img {
 
 .main-section-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .main-section-team-ul-li {
@@ -258,6 +262,19 @@ img {
   background-color: var(--brandcolor);
 }
 
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-logo-span {
   color: #f4f4fd;
 }
@@ -267,6 +284,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--footercolor);
+  max-width: 264px;
 }
 
 /* Portfolio */
