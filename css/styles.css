@@ -187,6 +187,8 @@ img {
   color: var(--brandcolor);
   margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .section-goals-p {
@@ -214,10 +216,10 @@ img {
 
 .main-section-projects-ul {
   display: flex;
+  gap: 24px;
 }
 
 .main-section-projects-ul-li {
-  gap: 24px;
   width: calc((100% - 48px) / 3);
 }
 
@@ -229,6 +231,8 @@ img {
 
 .main-section-team-ul-li {
   background-color: #ffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .main-section-team-ul-li-p {
@@ -236,6 +240,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--addresscolor);
+  text-align: center;
+}
+
+.main-section-team-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.main-section-team-div {
+  padding: 32px 16px;
 }
 
 /* Footer */
