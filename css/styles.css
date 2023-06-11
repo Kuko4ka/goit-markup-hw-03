@@ -17,6 +17,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 .link {
@@ -164,6 +165,19 @@ img {
 
 /* Section 2 */
 
+.page-section-goals {
+  padding: 120px 0;
+}
+
+.section-goals-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.section-goals-ul-li {
+  width: calc((100% - 72px) / 4);
+}
+
 .section-goals-hthree {
   font-style: normal;
   font-weight: 500;
@@ -171,6 +185,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brandcolor);
+  margin-bottom: 8px;
 }
 
 .section-goals-p {
