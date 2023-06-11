@@ -54,6 +54,11 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
+.page-header-container {
+  display: flex;
+  margin: 0 auto;
+}
+
 .header-nav {
   display: flex;
   align-items: center;
@@ -120,6 +125,7 @@ img {
 /* Section 1 */
 .main-hero {
   background-color: var(--brandcolor);
+  padding: 188px 0;
 }
 
 .main-hero-text {
@@ -131,6 +137,7 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
+  max-width: 496px;
 }
 
 .main-hero-button {
@@ -142,7 +149,12 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  background-color: #4d5ae5;
+  background-color: var(--buttoncolor);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .main-hero-button:hover,
