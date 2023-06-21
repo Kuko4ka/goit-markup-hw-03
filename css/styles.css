@@ -39,6 +39,16 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  display: block;
+}
+
+address {
+  margin-left: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
 ul {
   margin-top: 0;
   margin-bottom: 0;
